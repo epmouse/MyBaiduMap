@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+      <FrameLayout
+          android:id="@+id/framelayout"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="1">
+      </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:background="#66ff0000"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radiobutton1"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="25dp"
+            android:textColor="@drawable/radiobutton_select_bg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/radiobutton2"
+            android:textColor="@drawable/radiobutton_select_bg"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="相机" />
+
+        <RadioButton
+            android:id="@+id/radiobutton3"
+            android:textColor="@drawable/radiobutton_select_bg"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="地图" />
+
+        <RadioButton
+            android:id="@+id/radiobutton4"
+            android:textColor="@drawable/radiobutton_select_bg"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:text="设置" />
+
+    </RadioGroup>
+
+
+</LinearLayout>
